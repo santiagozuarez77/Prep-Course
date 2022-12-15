@@ -1,0 +1,42 @@
+homework 01 :
+variables 
+¿que es una variable ? 
+una variable en javascript , es la forma en que podemos almecenar datos  , ejemplo nombres ,numeros, etc 
+una variable puede ser mi nombre , mi edad , mi peso etc
+la palabras clave o keywords para una variable ,  que es basicamente como podemos crear una variable en javascript
+son 3 
+var , let , y const .
+ 
+¿que es un string?
+un string un tipo de dato , tipo texto , estos siempre estan entre comillas ("")
+por ejemplo var minombre = "string "
+ 
+
+¿que es una funcion ?
+ una funcion son las  herramienta que usan para  darle " vida" a los datos que pusimos en nuestras variable
+dicho de otra forma las funciones son herramientas que sirven para calcular, y cambiar las variable , hacer algo con 
+las variables  que tengamos. 
+  la palabra clave para una funcion en javascript es , function 
+ la forma expresar una es: 
+  function nombredelafuncion (argumento) { en los corchetes se escribe el codigo que la funcion va a ejecutar }
+   
+   ¿que es un argumento en javascript?
+   los argumentos es el valor que les asiganmos a la funciones , 
+   function ejemplo :  loghola (nombre) {console.log ("hola ," + nombre ") ;}
+   loghola("santiago"); // hola, santiago . 
+   los argumentos de una funcion son los valores que le asignamos a una funcion y  van en ,( ),
+   por ejemplo : function sumardosnumeros (a ,b ) , los argumentos de nuestra funcion serian datos numericos 
+    ¿que es el return? para que la funcion nos devuelva un valor lo hacemos con el parametro return 
+    return es como le pedimos a la funcion que nos devuelva el resultado de los calculos .
+    por ejemplo : function hola (nombre ) {  var hola = "hola , + nombre ); return hola ;}
+
+   declaraciónes en javascript:
+   cuando queremos obtener un resultado le podemos dar a la funcion caminos posibles para calcularlos 
+   eso los hacemos con la declaración if y else 
+   if significa si se cumple y else significa si no se cumple 
+   if si se cumple un "camino a seguir " dara un resultado afirmativo  la funcion termina. cumple su proposito  , 
+   else sino se cumple ese resultado esperado la funcion resultara negativa y la funcion tomara otro camino.
+   booleanos en javascript , los booleanos son tipos de datos que se basan en la logica de boole se utilizan
+   para afirmar o para negar en javascript ejemplo : true ; false
+
+   
